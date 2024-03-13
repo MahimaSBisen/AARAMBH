@@ -3,9 +3,20 @@
 // import viteLogo from '/vite.svg'
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Header";
+import OD from "./OD";
+import FAQ from "./FAQ";
+import Footer from "./Footer";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header></Header>
+      <OD></OD>
+      <FAQ></FAQ>
+      <Footer></Footer>
+    </>
+  );
 }
 
 export default App;

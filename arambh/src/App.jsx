@@ -1,14 +1,15 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-// import "./App.css";
-import "../scss/styles.scss";
+// import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Header";
-import OD from "./OD";
-import FAQ from "./FAQ";
-import Footer from "./Footer";
+import Header from "./Components/Header";
+import OD from "./Components/OD";
+import FAQ from "./Pages/FAQ";
+import Footer from "./Components/Footer";
+import RegisForm from "./Pages/RegisForm";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <OD></OD>
       <FAQ></FAQ>
       <Footer></Footer>
+      <RegisForm></RegisForm>
     </>
   );
 }

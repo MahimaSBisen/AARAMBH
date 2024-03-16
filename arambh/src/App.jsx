@@ -18,8 +18,8 @@ function App() {
     <>
       {/* <Header></Header> */}
       {/* <OD></OD> */}
-      <FAQ></FAQ>
-      {/* <Footer></Footer> */}
+      {/* <FAQ></FAQ> */}
+      <Footer></Footer>
       {/* <RegisForm></RegisForm> */}
       {/* <SignUp></SignUp>
       <Login></Login>   */}

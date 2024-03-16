@@ -290,3 +290,38 @@ h5{
   font-weight: 400;
   
 }
+
+/* footer */
+
+.footer{
+  height: 300px;
+  width:100%;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  background-color: black;
+  padding: 20px;
+ 
+  
+}
+
+.ahead{
+  color: white;
+ 
+  margin-left: 300px;
+  display: inline;
+  font-family: sans-serif;
+}
+
+.pfooter{
+  color: rgb(179, 176, 176);
+  font-family: sans-serif;
+  text-align: center;
+ 
+}
+
+.horiLine{
+  color: white;
+  margin-top: 200px;
+  
+}

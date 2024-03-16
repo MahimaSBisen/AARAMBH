@@ -41,6 +41,9 @@
   color: #888;
 } */
 
+
+
+/* donar registration form */
 body{
   overflow-x: hidden;
   
@@ -148,7 +151,7 @@ p{
   font-weight: 600;
 }
 
-
+/* signup  and login */
 .signupDIV{
   overflow-x: hidden;
   overflow-y: hidden;
@@ -222,19 +225,68 @@ p{
   font-weight: 400;
 }
 
+
+/* header */
 img{
    height: 150px;
    width: 150px;
 }
 
 .header{
+  justify-content: center;
   display: flex;
  
   align-items: center;
 }
 
 h5{
-  margin-left: 60px;
+  margin-left: 90px;
 }
 
 
+
+.carousel{
+  background-color: black;
+}
+
+.d-block{
+  height: 500px;
+}
+
+/* faq */
+
+.QA{
+  margin-top: 50px;
+  height: 2960px;
+  width:1200px;
+  border: 0px solid black;
+  border-radius: 10px;
+  margin-left: 150px;
+  background-color: #d5daf0;
+  padding-top:  1px;
+  margin-bottom: 50px;
+}
+
+.headFAQ{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.que{
+  margin-top: 30px;
+  margin-left: 50px;
+  color:rgb(165, 11, 11);
+  font-weight: bold;
+  font-size: large;
+}
+
+.ans{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  margin-bottom: 30px;
+  font-size: large;
+  font-weight: 400;
+  
+}

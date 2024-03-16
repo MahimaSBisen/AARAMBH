@@ -16,9 +16,9 @@ import Login from "./Pages/Login";
 function App() {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
       {/* <OD></OD> */}
-      {/* <FAQ></FAQ> */}
+      <FAQ></FAQ>
       {/* <Footer></Footer> */}
       {/* <RegisForm></RegisForm> */}
       {/* <SignUp></SignUp>

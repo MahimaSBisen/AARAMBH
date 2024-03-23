@@ -1,8 +1,8 @@
+import React from 'react';
 
 
 
-
-function SignUp() {
+const SignUp = () => {
   return <>
   <div className="signupDIV">
       <button className="but1">Continue with Google</button>

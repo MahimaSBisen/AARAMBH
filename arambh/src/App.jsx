@@ -1,3 +1,4 @@
+import React from "react";
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
@@ -5,26 +6,17 @@
 import * as bootstrap from "bootstrap";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Components/Header";
-import OD from "./Components/OD";
-import FAQ from "./Pages/FAQ";
-import Footer from "./Components/Footer";
-import RegisForm from "./Pages/RegisForm";
+import Home from "./Pages/Home";
 import SignUp from "./Pages/SignUp";
-import Login from "./Pages/Login";
+import Aim from "./Components/Aim";
 
-function App() {
+const App = () => {
   return (
     <>
-      {/* <Header></Header> */}
-      {/* <OD></OD> */}
-      {/* <FAQ></FAQ> */}
-      <Footer></Footer>
-      {/* <RegisForm></RegisForm> */}
-      {/* <SignUp></SignUp>
-      <Login></Login>   */}
+       <Home></Home> 
+     
     </>
   );
-}
+};
 
 export default App;

@@ -9,11 +9,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import SignUp from "./Pages/SignUp";
 import Aim from "./Components/Aim";
+import FAQ from "./Pages/FAQ";
 
 const App = () => {
   return (
     <>
        <Home></Home> 
+      
      
     </>
   );

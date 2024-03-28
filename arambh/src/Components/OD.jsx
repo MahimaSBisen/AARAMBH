@@ -1,5 +1,8 @@
-import myImage from "./Slide1OD.png"; // Importing the image
-
+import myImage1 from "./Slide1OD.png";
+import myImage2 from "./slideOD2.png";
+import myImage3 from "./slideOD3.png";
+import myImage4 from "./slideOD4.png";
+import myImage5 from "./slideOD5.png";
 
 function OD() {
   return (
@@ -7,19 +10,19 @@ function OD() {
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={myImage} class="d-block w-100 h-100" />
+            <img src={myImage1} class="d-block w-100 h-100" />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" />
+            <img src={myImage2} class="d-block w-100 h-100" />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" />
+            <img src={myImage3} class="d-block w-100 h-100" />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" />
+            <img src={myImage4} class="d-block w-100 h-100" />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" />
+            <img src={myImage5} class="d-block w-100 h-100" />
           </div>
         </div>
         <button

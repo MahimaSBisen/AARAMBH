@@ -1,0 +1,19 @@
+.aimContainer{
+  height: 1000px;
+  width: 100%;
+  
+/*   
+  background-image: url('AimImg5.jpg');
+  background-size: cover;
+  */
+   
+
+ 
+}
+
+h1{
+  font-weight: 700;
+  text-align: center;
+  padding: 30px;
+
+}

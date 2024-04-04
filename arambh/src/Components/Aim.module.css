@@ -1,19 +1,65 @@
 .aimContainer{
-  height: 1000px;
+  height: 5150px;
   width: 100%;
-  
+  background-color: white;
 /*   
   background-image: url('AimImg5.jpg');
   background-size: cover;
   */
-   
-
- 
 }
 
 h1{
   font-weight: 700;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 
+}
+
+.aimDiv{
+  height: 350px;
+  width: 1300px;
+  margin-bottom: 150px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 0px solid black;
+  display: flex;
+  
+}
+
+.imgDiv{
+  height: 350px;
+  width: 500px;
+  border: 0px solid red;
+  background-size: cover;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.contentDiv{
+  height: 350px;
+  width: 500px;
+  border: 0px solid blue;
+  text-align: center;
+  
+}
+
+.AImg{
+  background-image: url("./AimImage1.jpg");
+  background-size: contain;
+  height: 350px;
+  width: 500px;
+
+}
+
+.head{
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.para{
+  font-size: x-large;
+  padding: 10px;
+  text-align: justify;
 }

@@ -47,9 +47,11 @@
 body{
   overflow-x: hidden;
   
+  
 }
 
 .formBody{
+
   margin-top: 20px;
   margin-left: 230px;
   background-color: rgb(219, 230, 235);
@@ -63,7 +65,7 @@ body{
   text-align: center;
   font-family: sans-serif;
   font-size: x-large;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-weight: 600;
 }
 

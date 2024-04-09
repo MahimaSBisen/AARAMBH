@@ -1,6 +1,9 @@
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 function Login() {
   return <>
+  <Header></Header>
   <div className="signupDIV">
      <h1 className="logH">Log In</h1>
       <button className="but1">Continue with Google</button>
@@ -17,6 +20,7 @@ function Login() {
 
 
   </div>
+  <Footer></Footer>
   </>;
 }
 

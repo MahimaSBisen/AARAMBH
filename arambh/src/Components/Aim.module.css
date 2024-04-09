@@ -58,8 +58,20 @@ h1{
   padding: 10px;
 }
 
+
 .para{
   font-size: x-large;
   padding: 10px;
   text-align: justify;
+}
+
+
+.head:hover{
+  transform: scale(1.1);
+  color: green;
+}
+
+.para:hover{
+  transform: scale(1.1);
+  color: rgb(170, 1, 1);
 }

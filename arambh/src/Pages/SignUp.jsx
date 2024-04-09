@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 
 
 const SignUp = () => {
   return <>
+  <Header></Header>
+ 
   <div className="signupDIV">
       <button className="but1">Continue with Google</button>
       <h5 className="p1">or</h5>
@@ -18,6 +22,7 @@ const SignUp = () => {
 
 
   </div>
+  <Footer></Footer>
   </>;
 }
 

@@ -1,28 +1,58 @@
 import myImage from "./LogoOD1.png"; // Importing the image
 import styles from "./Header.module.css";
-
+import { Link  } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="header">
         <img src={myImage} alt="My Image" />
- 
+{/*  
 <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     HOME
   </button>
   <ul class="dropdown-menu">
+
+  
+
+
     <li><a class="dropdown-item" href="#">Home</a></li>
     <li><a class="dropdown-item" href="#">Another action</a></li>
     <li><a class="dropdown-item" href="#">Something else here</a></li>
     <li><hr class="dropdown-divider"/></li>
     <li><a class="dropdown-item" href="#">Log out</a></li>
   </ul>
-</div>
+</div> */}
+<Link to ='/'>
+
+<p className={styles.para}>Home</p>
+  </Link>
 
 
-<div class={styles.btngroup}>
+<Link to ='sign-up'>
+
+<p className={styles.para}>Sign Up</p>
+  </Link>
+
+
+  <Link to='log-in'>
+    <p className={styles.para}>Log In</p>
+  </Link>
+
+  <Link  to='faq'>
+    <p className={styles.para}>FAQs</p>
+  </Link>
+
+
+  
+  <Link  to='regis-form'>
+
+    <p className={styles.para}>Donate Organs</p>
+
+    </Link>
+
+{/* <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     SIGN UP 
   </button>
@@ -33,10 +63,10 @@ function Header() {
     <li><hr class="dropdown-divider"/></li>
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
-</div>
+</div> */}
 
 
-<div class={styles.btngroup}>
+{/* <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     LOG IN
   </button>
@@ -47,8 +77,8 @@ function Header() {
     <li><hr class="dropdown-divider"/></li>
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
-</div>
-
+</div> */}
+{/* 
 
 <div class={styles.btngroup}>
   <button type="button"  class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,21 +91,19 @@ function Header() {
     <li><hr class="dropdown-divider"/></li>
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
-</div>
+</div> */}
 
 
-<div class={styles.btngroup}>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-   DONATE ORGANS
-</button>
 
+
+{/* 
 
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header"> */}
         {/* <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1> */}
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         You have to Sign Up to register for donating organs!
@@ -87,7 +115,7 @@ function Header() {
     </div>
   </div>
 </div>
-</div>
+</div> */}
 {/* 
 <div class={styles.btngroup}>
   <button type="button"  class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,5 +1,8 @@
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 function RegisForm() {
   return<>
+  <Header></Header>
   <h1 className="regishead">ORGAN DONAR REGISTRATION</h1>
   <hr className="hr1"/>
   <div className="formBody">
@@ -279,7 +282,7 @@ function RegisForm() {
     <input className="subBut" type="submit" value="Submit"/>
   </form>
   </div>
-  
+  <Footer></Footer>
   </>
 }
 

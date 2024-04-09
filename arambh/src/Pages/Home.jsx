@@ -6,10 +6,10 @@ import Aim from "../Components/Aim";
 import Footer from "../Components/Footer";
 import FAQ from "./FAQ";
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import RegisForm from "./RegisForm";
 
-
-const Home = () =>  {
+const Home = () => {
   return (
     <>
       <Header></Header>
@@ -18,10 +18,9 @@ const Home = () =>  {
       <OD></OD>
       {/* <FAQ></FAQ> */}
       <Aim></Aim>
-      <Footer></Footer> 
-    
+      <Footer></Footer>
     </>
   );
-}
+};
 
 export default Home;

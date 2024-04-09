@@ -10,14 +10,30 @@ import Home from "./Pages/Home";
 import SignUp from "./Pages/SignUp";
 import Aim from "./Components/Aim";
 import FAQ from "./Pages/FAQ";
+import RegisForm from "./Pages/RegisForm";
+import Login from "./Pages/Login";
+import { BrowserRouter , Routes, Route, Link} from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-       <Home></Home> 
+    <BrowserRouter>
+    <Routes>
+<Route path='/' element={<Home/>}/>
+<Route path='faq' element={<FAQ/>}/>
+<Route path='log-in' element={<Login/>}/>
+<Route path='sign-up' element={<SignUp/>}/>
+
+<Route path='regis-form' element={<RegisForm/>}/>
+
+
+
+
+    </Routes>
+
+   
       
      
-    </>
+    </BrowserRouter>
   );
 };
 

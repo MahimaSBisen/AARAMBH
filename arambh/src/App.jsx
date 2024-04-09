@@ -14,6 +14,7 @@ import RegisForm from "./Pages/RegisForm";
 import Login from "./Pages/Login";
 import { BrowserRouter , Routes, Route, Link} from "react-router-dom";
 
+
 const App = () => {
   return (
     <BrowserRouter>

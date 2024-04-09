@@ -1,13 +1,13 @@
 import myImage from "./LogoOD1.png"; // Importing the image
 import styles from "./Header.module.css";
-import { Link  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="header">
         <img src={myImage} alt="My Image" />
-{/*  
+        {/*  
 <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     HOME
@@ -24,35 +24,35 @@ function Header() {
     <li><a class="dropdown-item" href="#">Log out</a></li>
   </ul>
 </div> */}
-<Link to ='/'>
+        <Link to='/'>
 
-<p className={styles.para}>Home</p>
-  </Link>
-
-
-<Link to ='sign-up'>
-
-<p className={styles.para}>Sign Up</p>
-  </Link>
+          <p className={styles.para}>Home</p>
+        </Link>
 
 
-  <Link to='log-in'>
-    <p className={styles.para}>Log In</p>
-  </Link>
+        <Link to='sign-up'>
 
-  <Link  to='faq'>
-    <p className={styles.para}>FAQs</p>
-  </Link>
+          <p className={styles.para}>Sign Up</p>
+        </Link>
 
 
-  
-  <Link  to='regis-form'>
+        <Link to='log-in'>
+          <p className={styles.para}>Log In</p>
+        </Link>
 
-    <p className={styles.para}>Donate Organs</p>
+        <Link to='faq'>
+          <p className={styles.para}>FAQs</p>
+        </Link>
 
-    </Link>
 
-{/* <div class={styles.btngroup}>
+
+        <Link to='regis-form'>
+
+          <p className={styles.para}>Donate Organs</p>
+
+        </Link>
+
+        {/* <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     SIGN UP 
   </button>
@@ -66,7 +66,7 @@ function Header() {
 </div> */}
 
 
-{/* <div class={styles.btngroup}>
+        {/* <div class={styles.btngroup}>
   <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     LOG IN
   </button>
@@ -78,7 +78,7 @@ function Header() {
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
 </div> */}
-{/* 
+        {/* 
 
 <div class={styles.btngroup}>
   <button type="button"  class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -96,7 +96,7 @@ function Header() {
 
 
 
-{/* 
+        {/* 
 
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -116,7 +116,7 @@ function Header() {
   </div>
 </div>
 </div> */}
-{/* 
+        {/* 
 <div class={styles.btngroup}>
   <button type="button"  class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     DONATE ORGANS
@@ -130,20 +130,20 @@ function Header() {
   </ul>
 </div> */}
 
-<div class={styles.btngroup}>
-<form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-</form>
-</div>
-  
+        <div class={styles.btngroup}>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+
 
         {/* <h5>Home</h5>
         <h5>Sign Up</h5>
         <h5>Log In</h5>
         <h5>FAQs</h5> */}
-       
-</div>
+
+      </div>
 
 
 

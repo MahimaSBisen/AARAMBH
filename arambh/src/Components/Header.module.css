@@ -10,8 +10,22 @@ btn-secondary{
 
 .para{
   color: black;
-  font-size: medium;
-  
+  font-size: large;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
 
+.para:hover{
+  color: rgb(203, 3, 3);
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  transform: scale(1.2);
+  
 }
 

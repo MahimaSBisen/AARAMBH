@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,7 +19,8 @@ const SignUp = () => {
       <input  type="checkbox" id="checkbox" name="checkbox"></input>&nbsp;
       <label className="checkB" for="checkbox">I agree to the Terms of service and Privacy Policy</label><br/>
       <button className="but2">Sign Up</button><br/>
-      <p className="p2">Already have an account? Log In</p>
+      <p className="p2">Already have an account?</p><Link><p className="p2" >Log In </p></Link>
+      
 
 
   </div>

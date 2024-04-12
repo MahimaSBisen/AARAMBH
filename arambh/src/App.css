@@ -52,7 +52,7 @@ body{
 
 .formBody{
 
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 230px;
   background-color: rgb(219, 230, 235);
   width: 1000px;
@@ -60,13 +60,15 @@ body{
   border-radius: 14px;
   height: 1870px;
   overflow-x: hidden;
+  margin-bottom: 30px;
 }
 .regishead{
   text-align: center;
   font-family: sans-serif;
   font-size: x-large;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   font-weight: 600;
+  padding: 0px;
 }
 
 .regishead2{
@@ -75,6 +77,7 @@ body{
   margin-left: 20px;
   margin-top: 10px;
   font-weight: bold;
+ 
 }
 
 .flex-container{
@@ -143,9 +146,10 @@ p{
   font-size: larger;
   margin-left: 450px;
   border-radius: 9px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: rgb(164, 216, 249);
   font-family: sans-serif;
+  margin-bottom: 20px;
 
 }
 
@@ -157,9 +161,9 @@ p{
 .signupDIV{
   overflow-x: hidden;
   overflow-y: hidden;
- margin-top: 100px;
+ margin-top: 20px;
  margin-left: 500px;
-  
+ margin-bottom: 50px;
   height: 550px;
   width: 500px;
   text-align: center;
@@ -209,6 +213,7 @@ p{
 .p2{
   margin-top: 10px;
   font-size: medium;
+  display: inline;
 }
 
 .checkB{
@@ -217,7 +222,7 @@ p{
 
 .logH{
   font-weight: 100;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .p3{
@@ -237,7 +242,7 @@ img{
 .header{
   justify-content: center;
   display: flex;
- 
+  border: 0px solid black;
   align-items: center;
 }
 
@@ -258,8 +263,8 @@ h5{
 /* faq */
 
 .QA{
-  margin-top: 50px;
-  height: 2960px;
+  margin-top: 30px;
+  height: 2750px;
   width:1200px;
   border: 0px solid black;
   border-radius: 10px;
@@ -272,11 +277,11 @@ h5{
 .headFAQ{
   text-align: center;
   text-decoration: underline;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .que{
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 50px;
   color:rgb(165, 11, 11);
   font-weight: bold;

@@ -16,7 +16,7 @@ function Login() {
       <label className="checkB" for="checkbox">I agree to the Terms of service and Privacy Policy</label><br/> */}
      <h6 className="p3">Forgot Password?</h6>
       <button className="but2">Log In</button><br/>
-      <p className="p2">Don't have an account? Sign Up</p>
+      <p className="p2">Don't have an account? </p><Link><p className="p2">Sign Up</p></Link>
 
 
   </div>

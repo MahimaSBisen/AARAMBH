@@ -8,14 +8,16 @@ import FAQ from "./FAQ";
 import React from "react";
 // import { Link } from "react-router-dom";
 import RegisForm from "./RegisForm";
+import Output from "./Output";
 
 const Home = () => {
   return (
     <>
       <Header></Header>
+      {/* <Output></Output> */}
       {/* <SignUp></SignUp>
       <Login></Login> */}
-      <OD></OD>
+      <OD></OD> 
       {/* <FAQ></FAQ> */}
       <Aim></Aim>
       <Footer></Footer>

@@ -25,15 +25,7 @@ const App = () => {
 <Route path='sign-up' element={<SignUp/>}/>
 
 <Route path='regis-form' element={<RegisForm/>}/>
-
-
-
-
-    </Routes>
-
-   
-      
-     
+</Routes>
     </BrowserRouter>
   );
 };

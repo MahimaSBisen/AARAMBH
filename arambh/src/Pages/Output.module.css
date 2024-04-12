@@ -1,0 +1,30 @@
+.mainDiv{
+  background-color:rgb(222, 219, 219);
+  height: 520px;
+  width: 1475px;
+  border: 0px solid red;
+}
+
+.head{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.outputDiv{
+  height: 300px;
+  width: 750px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-left: 350px;
+  border-radius: 14px;
+  box-shadow: 50px;
+  padding: 40px;
+
+}
+
+.para{
+  font-size: x-large;
+  padding: 0px;
+  text-align: justify;
+}

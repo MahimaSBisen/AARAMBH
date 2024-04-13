@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { Link } from 'react-router-dom';
 function Login() {
   return <>
   {/* <Header></Header> */}
@@ -15,7 +16,7 @@ function Login() {
       <label className="checkB" for="checkbox">I agree to the Terms of service and Privacy Policy</label><br/> */}
      <h6 className="p3">Forgot Password?</h6>
       <button className="but2">Log In</button><br/>
-      <p className="p2">Don't have an account?</p><p className="p2" >Sign Up </p>
+      <p className="p2">Don't have an account?</p><Link to='/sign-up'><p className="p2">Sign Up </p></Link>
 
 
   </div>

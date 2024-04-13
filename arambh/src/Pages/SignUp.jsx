@@ -10,6 +10,7 @@ const SignUp = () => {
   {/* <Header></Header> */}
  
   <div className="signupDIV">
+  {/* <h1 className="logH">Sign Up</h1> */}
       <button className="but1">Continue with Google</button>
       <h5 className="p1">or</h5>
       <input className="uinput" type="text" id="username" name="username" placeholder="Username" required/><br/><br/>

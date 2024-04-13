@@ -172,7 +172,7 @@ p{
 }
 
 .but1{
-  margin-top: 0px;
+  margin-top: 20px;
   height: 40px;
   width: 300px;
   background-color: white;
@@ -185,7 +185,7 @@ p{
 }
 
 .but2{
-  margin-top: 20px;
+  margin-top: 0px;
   height: 35px;
   width: 300px;
   background-color: #3350d3;

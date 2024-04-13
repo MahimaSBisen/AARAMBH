@@ -1,6 +1,5 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-
 function Login() {
   return <>
   {/* <Header></Header> */}

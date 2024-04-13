@@ -13,11 +13,14 @@ import FAQ from "./Pages/FAQ";
 import RegisForm from "./Pages/RegisForm";
 import Login from "./Pages/Login";
 import { BrowserRouter , Routes, Route, Link} from "react-router-dom";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='faq' element={<FAQ/>}/>
@@ -26,6 +29,7 @@ const App = () => {
 
 <Route path='regis-form' element={<RegisForm/>}/>
 </Routes>
+<Footer></Footer>
     </BrowserRouter>
   );
 };

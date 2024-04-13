@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 
 function Login() {
   return <>
-  <Header></Header>
+  {/* <Header></Header> */}
   <div className="signupDIV">
      <h1 className="logH">Log In</h1>
       <button className="but1">Continue with Google</button>
@@ -16,13 +16,11 @@ function Login() {
       <label className="checkB" for="checkbox">I agree to the Terms of service and Privacy Policy</label><br/> */}
      <h6 className="p3">Forgot Password?</h6>
       <button className="but2">Log In</button><br/>
-      <p className="p2">Don't have an account?</p>
-      
-      <p className="p2" >Sign Up </p>
+      <p className="p2">Don't have an account?</p><p className="p2" >Sign Up </p>
 
 
   </div>
-  <Footer></Footer>
+  {/* <Footer></Footer> */}
   </>;
 }
 

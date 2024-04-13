@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 
 function FAQ() {
   return <>
-  <Header></Header>
+  {/* <Header></Header> */}
   <div className="QA">
     <h1 className="headFAQ">Freqently Asked Questions</h1>
   <h6 className="que">1. What is organ donation?</h6>
@@ -67,7 +67,7 @@ function FAQ() {
     <p className="ans"> One organ donor can potentially save up to eight lives through organ donation and enhance the lives of many more through tissue donation.</p>
     <hr/>
   </div>
-  <Footer></Footer>
+  {/* <Footer></Footer> */}
   </>;
 }
 

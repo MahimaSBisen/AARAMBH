@@ -4,7 +4,7 @@ import styles from "./RegisForm.module.css";
 
 function RegisForm() {
   return<>
-  <Header></Header>
+  {/* <Header></Header> */}
   <h1 className="regishead">ORGAN DONAR REGISTRATION</h1>
   <hr className="hr1"/>
   <div className="formBody">
@@ -284,7 +284,7 @@ function RegisForm() {
     <input className="subBut" type="submit" value="Submit"/>
   </form>
   </div>
-  <Footer></Footer>
+  {/* <Footer></Footer> */}
   </>
 }
 

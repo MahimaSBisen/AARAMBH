@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   return <>
-  <Header></Header>
+  {/* <Header></Header> */}
  
   <div className="signupDIV">
       <button className="but1">Continue with Google</button>
@@ -19,12 +19,12 @@ const SignUp = () => {
       <input  type="checkbox" id="checkbox" name="checkbox"></input>&nbsp;
       <label className="checkB" for="checkbox">I agree to the Terms of service and Privacy Policy</label><br/>
       <button className="but2">Sign Up</button><br/>
-      <p className="p2">Already have an account?</p><Link><p className="p2" >Log In </p></Link>
+      <p className="p2">Already have an account?</p><Link to='/log-in'><p className="p2" >Log In </p></Link>
       
 
 
   </div>
-  <Footer></Footer>
+  {/* <Footer></Footer> */}
   </>;
 }
 

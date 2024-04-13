@@ -13,14 +13,14 @@ import Output from "./Output";
 const Home = () => {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
       {/* <Output></Output> */}
       {/* <SignUp></SignUp>
       <Login></Login> */}
       <OD></OD> 
       {/* <FAQ></FAQ> */}
-      <Aim></Aim>
-      <Footer></Footer>
+       <Aim></Aim>
+      {/* <Footer></Footer>  */}
     </>
   );
 };

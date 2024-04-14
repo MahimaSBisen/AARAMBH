@@ -1,4 +1,4 @@
-import myImage from "./LogoOD1.png"; // Importing the image
+import myImage from "../Images/LogoOD1.png"; // Importing the image
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
 

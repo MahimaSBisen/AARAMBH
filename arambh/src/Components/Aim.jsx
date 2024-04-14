@@ -1,14 +1,14 @@
 import styles from "./Aim.module.css";
-import Aimg1 from "./AimImage1.jpg";
-import Aimg2 from "./AimImage2.jpg";
-import Aimg3 from "./AimImage3.jpg";
-import Aimg4 from "./AimImage4.jpg";
-import Aimg5 from "./AimImage5.jpg";
-import Aimg6 from "./AimImage6.jpg";
-import Aimg7 from "./AimImage7.jpg";
-import Aimg8 from "./AimImage8.jpg";
-import Aimg9 from "./AimImage9.jpg";
-import Aimg10 from "./AimImage10.jpg";
+import Aimg1 from "../Images/AimImage1.jpg";
+import Aimg2 from "../Images/AimImage2.jpg";
+import Aimg3 from "../Images/AimImage3.jpg";
+import Aimg4 from "../Images/AimImage4.jpg";
+import Aimg5 from "../Images/AimImage5.jpg";
+import Aimg6 from "../Images/AimImage6.jpg";
+import Aimg7 from "../Images/AimImage7.jpg";
+import Aimg8 from "../Images/AimImage8.jpg";
+import Aimg9 from "../Images/AimImage9.jpg";
+import Aimg10 from "../Images/AimImage10.jpg";
 
 function Aim() {
   return (

@@ -1,8 +1,8 @@
-import myImage1 from "./Slide1OD.png";
-import myImage2 from "./slideOD2.png";
-import myImage3 from "./slideOD3.png";
-import myImage4 from "./slideOD4.png";
-import myImage5 from "./slideOD5.png";
+import myImage1 from "../Images/Slide1OD.png";
+import myImage2 from "../Images/slideOD2.png";
+import myImage3 from "../Images/slideOD3.png";
+import myImage4 from "../Images/slideOD4.png";
+import myImage5 from "../Images/slideOD5.png";
 
 function OD() {
   return (

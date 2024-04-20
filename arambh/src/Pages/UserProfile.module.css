@@ -1,5 +1,38 @@
+
+
 .userDiv{
-  height: 500px;
+  height: 1000px;
   width: 1470px;
   background-color:rgb(212, 233, 251);
+}
+
+.head{
+  font-weight: 100px;
+}
+
+/* .camera{
+  height: 300px;
+  width: 400px;
+} */
+
+.cameraIcon{
+  height: 200px;
+  width: 300px;
+  margin-left: 0px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.menu{
+  height: 700px;
+  width: 900px;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 280px;
+  margin-top: 20px;
+  
+}
+
+.menuHead{
+  margin-top: 50px;
 }

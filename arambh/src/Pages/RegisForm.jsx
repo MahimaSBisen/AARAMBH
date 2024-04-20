@@ -5,12 +5,12 @@ import styles from "./RegisForm.module.css";
 function RegisForm() {
   return<>
   {/* <Header></Header> */}
-  <h1 className="regishead">ORGAN DONAR REGISTRATION</h1>
-  <hr className="hr1"/>
-  <div className="formBody">
-  <h2 className="regishead2">Personal Information</h2>
+  <h1 className={styles.regishead}>ORGAN DONAR REGISTRATION</h1>
+  <hr className={styles.hr1}/>
+  <div className={styles.formBody}>
+  <h2 className={styles.regishead2}>Personal Information</h2>
 
-  <form action="/submit_form" method="post">
+  <form action="/" method="post">
   <div className="flex-container">
     <div className="item">
     <label for="fname">First Name</label><br/>

@@ -15,6 +15,8 @@ import Login from "./Pages/Login";
 import { BrowserRouter , Routes, Route, Link} from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import UserProfile from "./Pages/UserProfile";
+import Notifications from "./Pages/Notifications";
 
 
 const App = () => {
@@ -26,8 +28,10 @@ const App = () => {
 <Route path='faq' element={<FAQ/>}/>
 <Route path='log-in' element={<Login/>}/>
 <Route path='sign-up' element={<SignUp/>}/>
-
 <Route path='regis-form' element={<RegisForm/>}/>
+<Route path='user-profile' element={<UserProfile/>}></Route>
+<Route path='notification' element={<Notifications/>}></Route>
+
 </Routes>
 <Footer></Footer>
     </BrowserRouter>

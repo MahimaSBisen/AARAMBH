@@ -11,13 +11,14 @@ btn-secondary{
 .para{
   color: black;
   font-size: large;
-  margin: 20px;
+  margin: 30px;
   text-decoration: none;
   font-weight: 400;
 }
 
 .para:hover{
-  color: rgb(203, 3, 3);
+  color: rgb(215, 3, 3);
+ 
 }
 
 .link{
@@ -27,5 +28,21 @@ btn-secondary{
 .link:hover{
   transform: scale(1.2);
   
+}
+
+.userIcon{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  color: black;
+ 
+}
+
+.notiIcon{
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  color: rgb(0, 128, 0);
+ 
 }
 

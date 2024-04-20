@@ -20,9 +20,8 @@ const Home = () => {
       <OD></OD> 
       {/* <FAQ></FAQ> */}
        <Aim></Aim>
-      {/* <Footer></Footer>  */}
+      {/*<Footer></Footer>*/}
     </>
   );
 };
-
 export default Home;
